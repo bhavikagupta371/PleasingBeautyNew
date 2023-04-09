@@ -1,0 +1,29 @@
+.PleasingBeauty{
+    max-width: 1050px;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+  }
+
+  .left-div{
+    max-width: 480px;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .left-div h2{
+    font-size: 2rem;
+    line-height: 50px;
+    font-weight: 550;
+  }
+  .right-div img{
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: -7px;
+    /* display: block; */
+  }
+  .left-div h2 span{
+    color: #ff8a3d;
+  }

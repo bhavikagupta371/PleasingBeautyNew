@@ -1,0 +1,97 @@
+.tab{
+    max-width: 500px;
+    width: 100%;
+    /* margin: 10px auto; */
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  .detail{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .detail .tab-img{
+    max-width: 200px;
+    min-width: 90px;
+    overflow: hidden;
+    margin: 25px;
+  }
+  .tab-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .detail .boxs{
+    max-width: 200px;
+    min-width: 90px;
+    margin: 5px;
+  }
+  .boxs .rows{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-bottom: 5px;
+  }
+  .boxs .rows h2{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+  }
+  .boxs .rows p{
+    color: crimson;
+  }  
+  /* .boxs p{
+    line-height: 1.5;
+    margin: 15px 0;
+  } */
+  .boxs .carts{
+    background: #333;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 25px;
+  }
+  
+  @media (max-width: 600px){
+    .tab{
+      height: 100px;
+    }
+    .tab img{
+      width: 50px;
+    }
+  }
+
+  .rating{
+    max-width: 300px;
+    max-height: 250px;
+    width: 100%;
+    /* margin: 10px auto; */
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  .ra-detail{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .ra-detail .rate{
+    max-width: 250px;
+    min-width: 90px;
+    margin: 3px;
+  }
+  
+  .rate .ro h3{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+  }
+ 

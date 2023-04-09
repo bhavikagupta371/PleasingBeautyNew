@@ -1,0 +1,93 @@
+.NavWrap{
+  width: 100%;    
+  background-color: #fff;
+      /* background-color: #fffcfa; */
+      padding: .8rem 0;
+      border: 1px solid whitesmoke;
+      z-index: 1;
+      
+  
+    }
+  
+   
+  
+  
+    .scrolled{
+      position: fixed;
+      top: 0;
+      left: 0;
+      animation: moveDown 0.5s ease-in-out;
+      /* border-bottom: 1px solid rgb(255, 217, 217); */
+    
+    }
+  
+  
+    @keyframes moveDown {
+      from {
+        transform: translateY(-5rem);
+      }
+      to {
+        transform: translateY(0rem);
+      }
+    }
+  
+    .navbar{
+      max-width: 1050px;
+      width: 94%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+    left: 0;
+  
+  
+    }
+  
+    .menu{
+      max-width: 150px;
+      /* max-width: 400px; */
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    
+  .menu span{
+    text-decoration: none;
+    border:2px solid #ff8a3d;
+    /* background-color: #ff8a3d; */
+    color: #ff8a3d;
+    padding: 6px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: .3s all;
+    cursor: pointer;
+  }
+  .menu span:hover{
+    
+    background-color: #ff8a3d;
+   color: white;
+   
+  }
+  .logo h3:hover{
+    text-decoration: none;
+  }
+  
+  .logo h3{
+    font-size: 1.8rem;
+    color: rgb(57, 57, 57);
+  }
+  .logo h3 span{
+    color: #ff8a3d;
+  }
+  
+  
+  
+  .menu i{
+    font-size: 1.2rem;
+    color: rgb(57, 57, 57);
+  }
+  
+  

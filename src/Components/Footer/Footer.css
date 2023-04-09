@@ -1,0 +1,50 @@
+.Footer {
+    max-width: 1050px;
+    width: 94%;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.Footer .parent {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 1rem;
+
+}
+
+.logo h3 span{
+    color: #ff8a3d !important; 
+  }
+
+.Footer .parent .card {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    /* padding: 1rem; */
+    /* height: 10rem; */
+    border-radius: 6px;
+}
+
+.Footer .parent .card p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.Footer .parent .card span{
+    color: black;
+    font-weight: 550;
+}
+.Footer .parent .card h3 {
+    color: black;
+}
+
+.bottom-footer hr {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.bottom-footer p {
+    text-align: center;
+    padding: 1rem 0;
+}
